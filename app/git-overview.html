@@ -8,7 +8,7 @@
 <meta name="Keywords" content="HTML, css, JavaScript, git, gitHub, node">
 <meta name="Description" content="An overview of terms relating to HTML coding icluding their function and relationship to other coding terms.">
         <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-        <link rel="stylesheet" href="assets/styles/overview.css">
+        <link rel="stylesheet" href="temp/styles/styles.css">
         <link rel="stylesheet" href="assets/styles/css/lightbox.css">
         <script type="text/javascript" src="js/jquery.js"></script>
         <script type="text/javascript" src="js/cycle2.js"></script>
@@ -21,15 +21,26 @@
 <body>
 
 <div class="col-wrapper"> 
-        <h1 class="title">WEB CODING OVERVIEW</h1>
-        	<h1 class="mainhead">Traditional web developers’ coding languages</h1>
-
-        <h2 class="class-title">HTML</h2>
-        <p>One of the two basic building blocks of a website; HTML is the actual content of a site, the text, images and the instructions for browsers on how to read this code.</p>
-        <h2 class="class-title class-title--css">CSS</h2>
-        <p>The other crucial building block of a website; CSS is the styling code for the HTML content.</p>
-        <h2 class="class-title class-title--java">Java script</h2>
-        <p>JavaScript is code to cause a function to happen in a browser. (e.g. to submit the contents of a form, or perhaps, to cause a modal-window to open and display a slideshow.)</p>
+    <h1 class="title">WEB CODING OVERVIEW</h1>
+        <h1 class="mainhead">Traditional web developers’ coding languages</h1>
+    <div class="row">
+        <div class="row--medium-4">
+            <h2 class="class-title class-title--html">HTML</h2>
+                <p class="para-body">One of the two basic building blocks of a website; HTML is the actual content of a site, the text, images and the instructions for browsers on how to read this code.</p>
+        </div>
+    </div>
+    <div class="row">    
+        <div class="row--medium-4">
+            <h2 class="class-title class-title--css">CSS</h2>
+                <p class="para-body">The other crucial building block of a website; CSS is the styling code for the HTML content.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="row--medium-4">
+            <h2 class="class-title class-title--java">JavaScript</h2>
+                <p class="para-body">JavaScript is code that causes a function to happen in a browser. (e.g. to submit the contents of a form, or perhaps, to cause a modal-window to open and display a slideshow.)</p>  
+        </div>
+    </div>
 </div>
 
 <div class="col-wrapper">
@@ -51,6 +62,7 @@
 
 <div class="col-wrapper">
         <h1 class="mainhead">Web developer’s automation and organisation tools</h1>
+
         <h2>Git</h2>
         <p>Git helps manage project files.</p>
         <p>Git keeps a record of all changes made by you and any collaborators working on the same project and even at the same time. Those different versions can eventually be merged with each other and with the original master version once everyone is in agreement.</p>

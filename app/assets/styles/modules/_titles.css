@@ -1,0 +1,79 @@
+/* Title start */
+
+.title {
+	font-family:Courier;
+	font-size:28px;
+	margin-left:20px;
+	margin-right:20px;
+	font-weight:500;
+	color:#e23b30;
+}
+
+.mainhead {
+	padding:10px;
+	margin-left:20px;
+	margin-right:20px;
+	color:#fff;
+	background-color:$mainGrey;
+	border-radius:4px;
+}
+
+.class-title {
+	display:block;
+	font-family:Courier;
+	font-size:24px;
+	font-weight:300;
+	color:#fff;
+	padding:10px;
+	width:50%;
+	margin-bottom:.5rem;
+	border-radius:4px;
+	box-sizing:border-box;
+
+	&--html {
+		background-color:$htmlColor;
+	}
+
+	&--css {
+		background-color:$cssColor;
+	}
+
+	&--java {
+		background-color:$javaColor;
+	}
+
+	@mixin atMedium {
+		float:auto;
+		width:33%;
+		box-sizing:border-box;
+	}
+}
+
+.para-body {
+	display:block;
+	font-weight:300;
+	line-height:1.5;
+
+	@mixin atMedium{
+		float:auto;
+		width:33%;
+		font-size:100%;
+		box-sizing:border-box;
+	}
+	
+}
+
+.box {
+	display:inline-block;
+	padding:10px;
+	margin-left:20px;
+	margin-right:20px;
+	margin-bottom:10px;
+	color:#fff;
+	background-color:$mainGrey;
+	width:90%;
+	box-sizing:border-box;
+}
+
+
+

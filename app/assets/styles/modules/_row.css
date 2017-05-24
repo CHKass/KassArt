@@ -1,0 +1,19 @@
+.row {
+
+	@mixin clearfix;
+
+	margin-left:20px;
+	margin-right:20px;
+
+	@mixin atMedium {
+		&--medium-4 {
+			float:left;
+			width:100%;
+		}
+	}	
+}
+
+
+
+
+

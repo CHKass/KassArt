@@ -1,0 +1,36 @@
+/* Global start */
+
+html {
+	background-color:#fff;
+}
+
+* {
+	margin:0px;
+	padding:0px;
+}
+
+body {
+	font-family:Lato, Verdana, Geneva, sans-serif;
+	font-size:80%;
+	
+}
+
+h1 {
+	font-family:Lato, Verdana, Geneva, sans-serif;
+	font-size:120%;
+	word-spacing:2px;	
+}
+
+h2 {
+	font-family:Lato, Verdana, Geneva, sans-serif;
+	color:#0c5485;
+	font-size:140%;
+	word-spacing:2px;	
+}
+
+p {
+	font-family:Lato, Verdana, Geneva, sans-serif;
+	color:#666666;
+	word-spacing:2px;
+	margin-bottom:6px;
+}
