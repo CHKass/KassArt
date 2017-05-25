@@ -484,16 +484,16 @@ p {
 }
 
 .class-title {
-	display:block;
 	font-family:Courier;
 	font-size:24px;
 	font-weight:300;
+	width:50%;
 	color:#fff;
 	padding:10px;
-	width:50%;
 	margin-bottom:.5rem;
 	border-radius:4px;
 	box-sizing:border-box;
+
 }
 
 .class-title--html {
@@ -508,42 +508,65 @@ p {
   background-color:#376167;
 }
 
+.class-title--texted {
+  background-color:#465254;
+}
+
+.class-title--command {
+  background-color:#2a4f55;
+}
+
+.class-title--hub {
+  background-color:#4f133f;
+}
+
+.class-title--git {
+  background-color:#005079;
+}
+
+.class-title--node {
+  background-color:#92661e;
+}
+
+.class-title--npm {
+  background-color:#b76f11;
+}
+
+.class-title--gulp {
+  background-color:#d2232a;
+}
+
+.class-title--bem {
+  background-color:#991f22;
+}
+
 @media (min-width:600px) {
 
   .class-title {
-    float: auto;
-    width: 33%;
-    box-sizing: border-box;
+    width: 90%;
   }
 }
 
 .para-body {
-	display:block;
 	font-weight:300;
+	font-size:120%;
 	line-height:1.5;
-	
+	padding-right:10px;
+	margin-right:20px;
+
+}
+
+.lang-group {
+	margin-left:20px;
+	margin-top:15px;
 }
 
 @media (min-width:600px) {
 
-  .para-body {
-    float: auto;
-    width: 33%;
-    font-size: 100%;
+  .lang-group {
+    display: inline-block;
     box-sizing: border-box;
   }
-}
-
-.box {
-	display:inline-block;
-	padding:10px;
-	margin-left:20px;
-	margin-right:20px;
-	margin-bottom:10px;
-	color:#fff;
-	background-color:#666666;
-	width:90%;
-	box-sizing:border-box;
 }
 
 /* Wrapper start */
@@ -554,11 +577,9 @@ p {
 	margin-right:auto;
 }
 
-.row {
+/* Start Grid System */
 
-	margin-left:20px;
-	margin-right:20px;	
-}
+/* ============================== */
 
 .row::after {
   content: "";
@@ -568,11 +589,15 @@ p {
 
 @media (min-width:600px) {
 
-  .row--medium-4 {
+  .row__medium-4 {
     float: left;
-    width: 100%;
+    width: 33.33%;
   }
 }
+
+/* End Grid System */
+
+/* ============================== */
 
 /* Clearfix Method */
 

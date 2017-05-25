@@ -19,13 +19,12 @@
 }
 
 .class-title {
-	display:block;
 	font-family:Courier;
 	font-size:24px;
 	font-weight:300;
+	width:50%;
 	color:#fff;
 	padding:10px;
-	width:50%;
 	margin-bottom:.5rem;
 	border-radius:4px;
 	box-sizing:border-box;
@@ -42,38 +41,63 @@
 		background-color:$javaColor;
 	}
 
-	@mixin atMedium {
-		float:auto;
-		width:33%;
-		box-sizing:border-box;
+	&--texted {
+		background-color:$textedColor;
 	}
+
+	&--command {
+		background-color:$commandColor;
+	}
+
+	&--hub {
+		background-color:$hubColor;
+	}
+
+	&--git {
+		background-color:$gitColor;
+	}
+
+	&--node {
+		background-color:$nodeColor;
+	}
+
+	&--npm {
+		background-color:$npmColor;
+	}
+
+	&--gulp {
+		background-color:$gulpColor;
+	}
+
+	&--bem {
+		background-color:$bemColor;
+	}
+
+	@mixin atMedium {
+		width:90%;
+	}
+
 }
 
 .para-body {
-	display:block;
 	font-weight:300;
+	font-size:120%;
 	line-height:1.5;
-
-	@mixin atMedium{
-		float:auto;
-		width:33%;
-		font-size:100%;
-		box-sizing:border-box;
-	}
-	
-}
-
-.box {
-	display:inline-block;
-	padding:10px;
-	margin-left:20px;
+	padding-right:10px;
 	margin-right:20px;
-	margin-bottom:10px;
-	color:#fff;
-	background-color:$mainGrey;
-	width:90%;
-	box-sizing:border-box;
+
 }
 
+.lang-group {
+	margin-left:20px;
+	margin-top:15px;
+
+	@mixin atMedium {
+		display:inline-block;
+		box-sizing:border-box;
+
+	
+	}
+}
 
 
