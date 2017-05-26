@@ -13,9 +13,11 @@
 	padding:10px;
 	margin-left:20px;
 	margin-right:20px;
+	margin-top:20px;
 	color:#fff;
-	background-color:$mainGrey;
+	background-image:linear-gradient(to right, $mainBlue, $skyColor);
 	border-radius:4px;
+	box-shadow:5px 5px 10px rgba(0, 0, 0, .6);
 }
 
 .class-title {
@@ -25,8 +27,11 @@
 	width:50%;
 	color:#fff;
 	padding:10px;
+	margin-top:5px;
+	margin-left:20px;
 	margin-bottom:.5rem;
 	border-radius:4px;
+	box-shadow:5px 5px 10px rgba(0, 0, 0, .6);
 	box-sizing:border-box;
 
 	&--html {
@@ -74,7 +79,7 @@
 	}
 
 	@mixin atMedium {
-		width:90%;
+		width:88%;
 	}
 
 }
@@ -84,20 +89,17 @@
 	font-size:120%;
 	line-height:1.5;
 	padding-right:10px;
+	margin-left:22px;
 	margin-right:20px;
 
 }
 
-.lang-group {
-	margin-left:20px;
-	margin-top:15px;
-
-	@mixin atMedium {
-		display:inline-block;
-		box-sizing:border-box;
-
-	
-	}
+.instruction {
+	font-weight:300;
+	font-size:90%;
 }
+
+
+
 
 

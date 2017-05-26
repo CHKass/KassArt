@@ -463,6 +463,11 @@ p {
 	margin-bottom:6px;
 }
 
+footer p {
+	padding:20px;
+	color:#666666;
+}
+
 /* Title start */
 
 .title {
@@ -478,9 +483,11 @@ p {
 	padding:10px;
 	margin-left:20px;
 	margin-right:20px;
+	margin-top:20px;
 	color:#fff;
-	background-color:#666666;
+	background-image:linear-gradient(to right, #0c3651, #00aeef);
 	border-radius:4px;
+	box-shadow:5px 5px 10px rgba(0, 0, 0, .6);
 }
 
 .class-title {
@@ -490,8 +497,11 @@ p {
 	width:50%;
 	color:#fff;
 	padding:10px;
+	margin-top:5px;
+	margin-left:20px;
 	margin-bottom:.5rem;
 	border-radius:4px;
+	box-shadow:5px 5px 10px rgba(0, 0, 0, .6);
 	box-sizing:border-box;
 
 }
@@ -543,7 +553,7 @@ p {
 @media (min-width:600px) {
 
   .class-title {
-    width: 90%;
+    width: 88%;
   }
 }
 
@@ -552,21 +562,14 @@ p {
 	font-size:120%;
 	line-height:1.5;
 	padding-right:10px;
+	margin-left:22px;
 	margin-right:20px;
 
 }
 
-.lang-group {
-	margin-left:20px;
-	margin-top:15px;
-}
-
-@media (min-width:600px) {
-
-  .lang-group {
-    display: inline-block;
-    box-sizing: border-box;
-  }
+.instruction {
+	font-weight:300;
+	font-size:90%;
 }
 
 /* Wrapper start */
@@ -598,6 +601,72 @@ p {
 /* End Grid System */
 
 /* ============================== */
+
+.html {
+	font-weight:600;
+	font-style:italic;
+	color:#4f7542;
+}
+
+.css {
+	font-weight:600;
+	font-style:italic;
+	color:#f7941e;
+}
+
+.java {
+	font-weight:600;
+	font-style:italic;
+	color:#376167;
+}
+
+.sky {
+	font-weight:600;
+	font-style:italic;
+	color:#00aeef;
+}
+
+.command {
+	font-weight:600;
+	font-style:italic;
+	color:#2a4f55;
+}
+
+.hub {
+	font-weight:600;
+	font-style:italic;
+	color:#4f133f;
+}
+
+.git {
+	font-weight:600;
+	font-style:italic;
+	color:#005079;
+}
+
+.node {
+	font-weight:600;
+	font-style:italic;
+	color:#92661e;
+}
+
+.gulp {
+	font-weight:600;
+	font-style:italic;
+	color:#d2232a;
+}
+
+.npm {
+	font-weight:600;
+	font-style:italic;
+	color:#b76f11;
+}
+
+.bem {
+	font-weight:600;
+	font-style:italic;
+	color:#991f22;
+}
 
 /* Clearfix Method */
 

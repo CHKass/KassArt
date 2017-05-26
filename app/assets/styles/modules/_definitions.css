@@ -1,0 +1,55 @@
+.html {
+	font-weight:600;
+	font-style:italic;
+	color:$htmlColor;
+}
+.css {
+	font-weight:600;
+	font-style:italic;
+	color:$cssColor;
+}
+.java {
+	font-weight:600;
+	font-style:italic;
+	color:$javaColor;
+}
+.sky {
+	font-weight:600;
+	font-style:italic;
+	color:$skyColor;
+}
+.command {
+	font-weight:600;
+	font-style:italic;
+	color:$commandColor;
+}
+.hub {
+	font-weight:600;
+	font-style:italic;
+	color:$hubColor;
+}
+.git {
+	font-weight:600;
+	font-style:italic;
+	color:$gitColor;
+}
+.node {
+	font-weight:600;
+	font-style:italic;
+	color:$nodeColor;
+}
+.gulp {
+	font-weight:600;
+	font-style:italic;
+	color:$gulpColor;
+}
+.npm {
+	font-weight:600;
+	font-style:italic;
+	color:$npmColor;
+}
+.bem {
+	font-weight:600;
+	font-style:italic;
+	color:$bemColor;
+}
