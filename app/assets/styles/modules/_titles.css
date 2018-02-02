@@ -84,6 +84,13 @@
 
 }
 
+.class-title a:hover {
+	cursor:pointer;
+	text-decoration:none; 
+	color:#888; 
+}
+
+
 .para-body {
 	font-weight:300;
 	font-size:120%;

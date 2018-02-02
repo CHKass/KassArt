@@ -433,6 +433,7 @@ html {
 }
 
 * {
+	text-decoration:none;
 	margin:0px;
 	padding:0px;
 }
@@ -440,8 +441,7 @@ html {
 body {
 	font-family:Lato, Verdana, Geneva, sans-serif;
 	font-size:80%;
-	
-}
+	}
 
 h1 {
 	font-family:Lato, Verdana, Geneva, sans-serif;
@@ -555,6 +555,12 @@ footer p {
   .class-title {
     width: 88%;
   }
+}
+
+.class-title a:hover {
+	cursor:pointer;
+	text-decoration:none; 
+	color:#888; 
 }
 
 .para-body {
