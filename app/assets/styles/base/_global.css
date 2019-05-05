@@ -23,6 +23,7 @@ h1 {
 
 h2 {
 	font-family:Lato, Verdana, Geneva, sans-serif;
+	text-decoration:none;
 	color:#0c5485;
 	font-size:140%;
 	word-spacing:2px;	
@@ -36,6 +37,5 @@ p {
 }
 
 footer p {
-	padding:20px;
 	color:#666666;
 }

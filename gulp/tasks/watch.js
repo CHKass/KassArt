@@ -11,7 +11,7 @@ gulp.task('watch', function() {
 		}
 	});
 
-	watch('./app/git-overview.html', function() {
+	watch('./app/index.html', function() {
 		browserSync.reload();
 	});
 
