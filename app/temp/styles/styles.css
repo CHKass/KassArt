@@ -684,6 +684,10 @@ html {
 	padding:0px;
 }
 
+a {
+	text-decoration:none; 
+}
+
 body {
 	font-family:Lato, Verdana, Geneva, sans-serif;
 	font-size:1rem;
@@ -775,6 +779,16 @@ p {
 	box-shadow:5px 5px 10px rgba(0, 0, 0, .6);
 }
 
+.icon a {
+	text-decoration:none;
+	color:#fff;
+}
+
+.icon:hover > a {
+	text-decoration:none;
+	color:red;
+}
+
 .icon-one{
 	background-color:#92661e;
 }
@@ -814,6 +828,16 @@ p {
 	margin-bottom:0;
 	font-size:1rem;
 	font-weight:600;
+}
+
+.app-title a {
+	text-decoration:none;
+	color:#000;
+}
+
+.app-title:hover > a {
+	text-decoration:none;
+	color:#3498DB;
 }
 
 .logo {
@@ -894,7 +918,9 @@ footer {
 }
 
 @media screen and (max-width: 460px) {
-	
+	.container {
+		padding:15px;
+	}
 }
 
 header {
